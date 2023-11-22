@@ -20,6 +20,9 @@ using QuantConnect.Data.Market;
 
 namespace QuantConnect.Indicators;
 
+/// https://www.investopedia.com/articles/trading/10/premier_stochastic_oscillator_explained.asp
+/// https://www.tradingview.com/script/xewuyTA1-Indicator-Premier-Stochastic-Oscillator/
+
 /// <summary>
 /// This indicator normalizes the standard stochastic oscillator by applying a double exponential
 /// smoothing average of the %K value, resulting in a value that ranges from 0 to 100.
